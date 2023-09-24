@@ -1,1 +1,26 @@
+#include <stdio.h>
 
+int main(){
+
+    int senha1;
+
+    int senha2;
+
+printf("Crie a senha:");
+
+scanf("%i", &senha1);
+
+system("cls");
+
+printf("Escreva a senha:");
+
+scanf("%i", &senha2);
+
+if(senha1 == senha2){
+    printf("senha valida");
+
+}else if(senha1 != senha2){
+    printf("senha invalida");
+}
+    return 0;
+}
