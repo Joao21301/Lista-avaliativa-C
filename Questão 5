@@ -17,9 +17,9 @@ int main() {
         }
     } else if (num2 > num1) {
         if (num2 % num1 == 0) {
-            printf("%d e maior e eh multiplo de %d\n", num2, num1);
+            printf("%d eh maior e eh multiplo de %d\n", num2, num1);
         } else {
-            printf("%d e maior, mas nao eh multiplo de %d\n", num2, num1);
+            printf("%d eh maior, mas nao eh multiplo de %d\n", num2, num1);
         }
     } else {
         printf("Os dois numeros sao iguais.\n");
